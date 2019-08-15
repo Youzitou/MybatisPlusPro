@@ -22,7 +22,7 @@ public class ThreadGroupTest {
 
             // 只要线程组中任何一条线程出现异常，该方法就会被自动激发
             @Override
-            public void uncaughtException() {
+            public void uncaughtException(Thread t , Throwable e) {
 
             }
 
