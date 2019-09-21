@@ -1,5 +1,5 @@
 /*
- * hbeu liuyouyun
+ * Nothing is impossible to a willing heart
  */
 
 package com.lyy.test;
@@ -32,7 +32,6 @@ public class CasTest {
                 System.out.println(c);
                 rtr = ReadyToRun.T1;
             }
-
         },"t2").start();
     }
 

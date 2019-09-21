@@ -56,7 +56,7 @@ public class MapTest {
             System.out.println("值："+itValues.next());
         }
 
-        //  通过 map中的实体类（key  value）遍历            优先选
+        //  通过 map中的实体类（key  value）遍历
         Set<Map.Entry<String,Integer>> sets =  map.entrySet();
         // Set<Map.Entry<K, V>> entrySet();   获取map中所有的key对应value ，并将它们作为一个Entry实体类存在在Set集合中
         for(Map.Entry entry : sets){
